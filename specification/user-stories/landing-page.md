@@ -24,3 +24,4 @@ This page is the default home page for our application. It displays some basic i
 8. When a user clicks on a social button, he should be redirected to the respective URL link.
 9. The free text under the social button list should be configurable via the project environment variables or a JSON file configuration.
 10. The home page should display the latest twitter or facebook items from the organization twitter/facebook page.
+11. The organization twitter/facebook page should be configurable via the project environment variables or a JSON file configuration.
