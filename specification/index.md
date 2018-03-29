@@ -32,7 +32,7 @@ You can find all the user stories, by navigating to these links:
 10. [Create job ad](user-stories/create-job-ad.md)
 11. [Job application administration](user-stories/job-applications-admin.md)
 12. [Links administration](user-stories/links-admin.md)
-13. [Create link](user-stories/create-links-admin.md)
+13. [Create link](user-stories/create-link-admin.md)
 14. [Contact details administration](user-stories/contacts-admin.md)
 15. [Create contact detail](user-stories/create-contact-admin.md)
 
