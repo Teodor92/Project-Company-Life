@@ -1,6 +1,6 @@
 # Project Company Life
 
-This document serves as a general overview of the all the topics related to the construction of the project in question.
+This document serves as a general overview of all the topics related to the construction of the project in question.
 
 ## General description
 
