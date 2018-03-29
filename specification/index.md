@@ -48,15 +48,15 @@ This following section describes a proposed architecture that may or may not be 
 
 The suggested architecture is composed of the following sub-projects:
 
-- Front-End - the purpose of this project is to visualize our data take user input while transmitting it to the back-end. This project contains the following sub-components:
+- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components:
         - Angular UI - this component deals ONLY with the visualization of data
-        - Service Layer - this is the home of all our data communication logic sending POST/GET/PUT/DELETE requests to the back-end, should be done through here.
+        - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
 
-- Back-End - the purpose of this project is to abstract any communication with the data source a provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
-        - Express Controllers/Routes layer - this component house all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
-        - Service Layer - this the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
+- Back-End - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
+        - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
+        - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
-- Data storage - the is the persistent storage for our system - in our case, this is going to be, the Mongo Database.
+- Data storage - this is the persistent storage for our system - in our case this is going to be the Mongo Database.
 
 ## General pointers
 
