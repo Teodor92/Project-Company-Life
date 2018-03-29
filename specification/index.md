@@ -38,7 +38,7 @@ You can find all the user stories, by navigating to these links:
 
 ## Technical Stack
 
-The core technical stack for this application should be the MEAN stack.
+The core technical stack for this application should be the MEAN stack. You should use Angular 5/6 for the UI and Express, Node and MongoDb for the server.
 
 ## Proposed Architecture
 
