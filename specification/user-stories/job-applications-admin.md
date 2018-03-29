@@ -14,5 +14,5 @@ This page allows administrators to view all the job applications for a specific 
 4. The administrator can sort by each column (except the action columns).
 5. If the user clicks the `Download CV` button, the upload CV file for that application is downloaded.
 6. If the user clicks the `Download Cover Letter` button, the upload CV file for that application is downloaded.
-7. The Name column of the grid must contain the first and the last name of specified in the application.
+7. The Name column of the grid must contain the first and the last name specified in the application.
 8. There must be an additional column for the email of the user that sent the application(not shown in the wireframe). When the user clicks the email, it opens a mailing client.

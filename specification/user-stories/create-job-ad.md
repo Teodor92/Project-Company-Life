@@ -10,7 +10,7 @@ This page allows administrators to create or edit a job ad.
 
 1. When a user clicks on the `Create` button in the Job ad administration he/she is redirected to the Create Job ad administration page.
 2. The user must enter a title with a minimum character length 4 and maximum length 256.
-3. The user must enter a job add description with a minimum character length 4 and maximum character length 16384.
+3. The user must enter a description with a minimum character length 4 and maximum character length 16384.
 4. For the description a WYSIWYG editor must be available for the user.
 5. The user must select the job category for this ad - the available predefined categories are - IT, Marketing, Sales, Operations, Other.
 6. The user must select the status of this add - Active or Inactive.
