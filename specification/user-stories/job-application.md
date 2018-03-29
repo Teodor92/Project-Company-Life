@@ -8,7 +8,7 @@ This page allows a logged in user to apply for a job ad.
 
 ## Acceptance criteria
 
-1. When a user clicks on the Apply button in a job ad and if he is logged in, he is redirected to the Job application page.
+1. When a user clicks on the Apply button in a job ad and if he/she is logged in, he/she is redirected to the Job application page.
 2. The user MUST enter their first name.
 3. A valid first name is considered a string, containing only alphabetical characters, and that has a length between 3 and 100 characters.
 4. The user MUST enter a last name.

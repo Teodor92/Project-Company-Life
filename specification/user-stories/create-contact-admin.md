@@ -1,6 +1,6 @@
 # Create/edit contacts details administration
 
-This page allows administrators to create or Contact details. 
+This page allows administrators to create or edit Contact details. 
 
 ## Page wireframe
 
