@@ -42,7 +42,7 @@ The core technical stack for this application should be the MEAN stack. You shou
 
 ## Proposed Architecture
 
-This following section describes a proposed architecture they may or may not be used by the development team.
+This following section describes a proposed architecture that may or may not be used by the development team.
 
 ![Architecture](assets/example-architecture.png)
 
