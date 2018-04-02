@@ -17,7 +17,9 @@ This page allows a logged in user to apply for a job ad.
 7. The additional comment must be at most - 1024 symbols.
 8. The user MUST upload their CV.
 9. The maximum size of a CV document is 16 MB.
+9. The accepted file formats for CV are `.pdf`,`.docx`, `.doc`
 10. The user MAY upload a cover letter.
 11. The maximum size of a cover letter document is 16 MB.
+11. The accepted file formats for cover letter are `.pdf`,`.docx`, `.doc`
 12. If the user does not meet any of the required criteria and tries to submit the job application - an error message is displayed.
 13. The `Submit` button should be disabled if there are any invalid fields in the form.

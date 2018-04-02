@@ -39,7 +39,7 @@ You can find all the user stories, by navigating to these links:
 
 ## Technical Stack
 
-The core technical stack for this application should be the MEAN stack. You should use Angular 5/6 for the UI and Express, Node and MongoDB for the server.
+The core technical stack for this application should be the MEAN stack. You should use Angular 5/6 for the UI and Express, Node and Database of your choice.
 
 ## Proposed Architecture
 
@@ -57,14 +57,14 @@ The suggested architecture is composed of the following sub-projects:
         - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
         - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
-- Data storage - this is the persistent storage for our system - in our case this is going to be the Mongo Database.
+- Data storage - this is the persistent storage for our system.
 
 ## General pointers
 
-These ideas bellow are recommendations, that the authors think may be of use to the developers of this system.
+In the authors opinion, the bellow recommendations may be of use to the developers of this system.
 
 - It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch.
-- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
+- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense. 
 
 ## Challenges
 
