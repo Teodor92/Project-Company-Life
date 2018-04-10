@@ -41,6 +41,10 @@ You can find all the user stories, by navigating to these links:
 
 The core technical stack for this application should be the MEAN stack. You should use Angular 5/6 for the UI and Express, Node and MongoDB for the server.
 
+## Code Style
+
+Using the following [TSLint configuration](../configuration/tslint.json) is highly recommended.
+
 ## Proposed Architecture
 
 This following section describes a proposed architecture they may or may not be used by the development team.
