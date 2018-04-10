@@ -1,6 +1,10 @@
-# Project Company Life
+<img src="./assets/honeybee-logo.png" width="300px">
+<img src="./assets/telerik-logo.png"  width="250px">
 
-This document serves as a general overview of the all the topics related to the construction of the project in question.
+# Project Company Life
+## Final Project Assignment
+
+This document serves as a general overview of all the topics related to the construction of the project in question.
 
 ## General description
 
@@ -39,7 +43,8 @@ You can find all the user stories, by navigating to these links:
 
 ## Technical Stack
 
-The core technical stack for this application should be the MEAN stack. You should use Angular 5/6 for the UI and Express, Node and MongoDB for the server.
+The front-end of the application must be done with Angular 5/6.
+The whole stack could be the MEAN stack (Express, Node and Database of your choice) or use any Back-end as a Service (BAAS) (ex: Firebase).
 
 ## Code Style
 
@@ -47,28 +52,30 @@ Using the following [TSLint configuration](../configuration/tslint.json) is high
 
 ## Proposed Architecture
 
-This following section describes a proposed architecture they may or may not be used by the development team.
+This following section describes a proposed architecture that may or may not be used by the development team.
 
 ![Architecture](assets/example-architecture.png)
 
 The suggested architecture is composed of the following sub-projects:
 
-- Front-End - the purpose of this project is to visualize our data take user input while transmitting it to the back-end. This project contains the following sub-components:
+- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components:
         - Angular UI - this component deals ONLY with the visualization of data
-        - Service Layer - this is the home of all our data communication logic sending POST/GET/PUT/DELETE requests to the back-end, should be done through here.
+        - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
 
-- Back-End - the purpose of this project is to abstract any communication with the data source a provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
-        - Express Controllers/Routes layer - this component house all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
-        - Service Layer - this the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
+- Back-End **[Option 1]** - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
+        - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
+        - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
-- Data storage - the is the persistent storage for our system - in our case, this is going to be, the Mongo Database.
+- Data storage - this is the persistent storage for our system.
+
+- Back-End **[Option 2]** - you could use BAAS like [Firebase](https://firebase.google.com/), [Kinvey](https://www.kinvey.com/)
 
 ## General pointers
 
-These ideas bellow are recommendations, that the authors think may be of use to the developers of this system.
+In the authors opinion, the bellow recommendations may be of use to the developers of this system.
 
 - It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch.
-- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
+- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense. 
 
 ## Challenges
 
