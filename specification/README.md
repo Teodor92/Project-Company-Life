@@ -72,7 +72,7 @@ The suggested architecture is composed of the following sub-projects:
 
 ## General pointers
 
-In the authors opinion, the bellow recommendations may be of use to the developers of this system.
+In the authors' opinion, the bellow recommendations may be of use to the developers of this system.
 
 - It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch.
 - The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense. 
@@ -84,3 +84,4 @@ If you manage to complete the whole project before the deadline, here are some a
 - Implement 3rd party authentication using Facebook, Tweeter, Github, and Google.
 - Make a new administration for the Job Category and use it to dynamically create job categories.
 - Generate a test coverage report for the application.
+- Create a mobile/tablet friendly application. (Responsive design)
