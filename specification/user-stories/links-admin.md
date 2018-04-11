@@ -1,6 +1,6 @@
 # List links administration
 
-This page allows administrators to view all the job ads in the application, add new ones and delete/edit existing ones.
+This page allows administrators to view all the links in the application, add new ones and delete/edit existing ones. Links are displayed on the landing page either as Action Buttons(Action links) or as Social Buttons(Social links).
 
 ## Page wireframe
 
