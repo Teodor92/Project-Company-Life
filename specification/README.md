@@ -84,3 +84,4 @@ If you manage to complete the whole project before the deadline, here are some a
 - Implement 3rd party authentication using Facebook, Tweeter, Github, and Google.
 - Make a new administration for the Job Category and use it to dynamically create job categories.
 - Generate a test coverage report for the application.
+- Create a mobile/tablet friendly application. (Responsive design)
