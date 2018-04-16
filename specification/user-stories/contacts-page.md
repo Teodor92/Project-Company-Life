@@ -8,7 +8,7 @@ This page provides basic contact details to the user and offers a Google maps in
 
 ## Acceptance criteria
 
-1. When a user clicks on a job ad, he/she should be redirected to the Job ad details page.
+1. When a user clicks on the Contacts button in the navigation bar, he/she should be redirected to the Contacts page.
 2. The user should see a list of contact details for the company.
 3. The contact details list should be dynamic and should be loaded from the database.
 4. A contact detail has a name, a value, an isPrimaryAddress flag and an icon.
