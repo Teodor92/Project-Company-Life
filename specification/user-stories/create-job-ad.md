@@ -2,6 +2,8 @@
 
 This page allows administrators to create or edit a job ad.
 
+**Note:** If you wish you can create this form as a modal and not as a seprate page.
+
 ## Page wireframe
 
 ![Home Page](../assets/create-job-ad.png)
