@@ -19,3 +19,7 @@ This page allows administrators to create or edit links.
 7. If there are any invalid fields in the form, the `Create/Edit` button should be disabled.
 8. When the administrator clicks the `Create` button and all the form fields are valid, a new link is created, which has its CreatedAt value set to the moment of the link creation.
 9. After the link is created the administrator is redirected to the Links administration page.
+
+## Optinal acceptance criteria
+
+1. The icon link can aslo be a dropdown with predefined material icons. The most optimal way for this to work is to accept a material icon name OR a http link.
