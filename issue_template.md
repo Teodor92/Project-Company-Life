@@ -1,7 +1,9 @@
-# What is the issue?
+# Issue
+
+## Please give a short description of the issue
 
 TODO: Please describe the issue you are having.
 
-# Where is the issue?
+## Please describe where is the issue
 
 TODO: Please provide a link to the page where the issue is located.

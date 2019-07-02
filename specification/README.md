@@ -1,7 +1,10 @@
+<!-- markdownlint-disable no-inline-html -->
 <img src="./assets/honeybee-logo.png" width="300px">
 <img src="./assets/telerik-logo.png"  width="250px">
+<!-- markdownlint-enable no-inline-html -->
 
 # Project Company Life
+
 ## Final Project Assignment
 
 This document serves as a general overview of all the topics related to the construction of the project in question.
@@ -25,21 +28,21 @@ This section describes all the required user stories that need to be completed i
 You can find all the user stories, by navigating to these links:
 
 1. [Landing page](user-stories/landing-page.md)
-2. [Job listing](user-stories/job-listing.md)
-3. [Job ad details](user-stories/job-ad-details.md)
-4. [Contacts page](user-stories/contacts-page.md)
-5. [Register new user](user-stories/register-new-user.md)
-6. [Login user](user-stories/login-user.md)
-7. [Job application](user-stories/job-application.md)
-8. [Users administration](user-stories/list-user-admin.md)
-9. [Job ads administration](user-stories/job-ads-admin.md)
-10. [Create job ad](user-stories/create-job-ad.md)
-11. [Job application administration](user-stories/job-applications-admin.md)
-12. [Links administration](user-stories/links-admin.md)
-13. [Create link](user-stories/create-link-admin.md)
-14. [Contact details administration](user-stories/contacts-admin.md)
-15. [Create contact detail](user-stories/create-contact-admin.md)
-16. [Access level](user-stories/access-level.md)
+1. [Job listing](user-stories/job-listing.md)
+1. [Job ad details](user-stories/job-ad-details.md)
+1. [Contacts page](user-stories/contacts-page.md)
+1. [Register new user](user-stories/register-new-user.md)
+1. [Login user](user-stories/login-user.md)
+1. [Job application](user-stories/job-application.md)
+1. [Users administration](user-stories/list-user-admin.md)
+1. [Job ads administration](user-stories/job-ads-admin.md)
+1. [Create job ad](user-stories/create-job-ad.md)
+1. [Job application administration](user-stories/job-applications-admin.md)
+1. [Links administration](user-stories/links-admin.md)
+1. [Create link](user-stories/create-link-admin.md)
+1. [Contact details administration](user-stories/contacts-admin.md)
+1. [Create contact detail](user-stories/create-contact-admin.md)
+1. [Access level](user-stories/access-level.md)
 
 ## Technical Stack
 
@@ -75,7 +78,7 @@ The suggested architecture is composed of the following sub-projects:
 In the authors' opinion, the bellow recommendations may be of use to the developers of this system.
 
 - It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch.
-- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense. 
+- The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
 
 ## Challenges
 
