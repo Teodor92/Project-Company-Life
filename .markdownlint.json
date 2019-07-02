@@ -1,0 +1,4 @@
+{
+    "extends": "./node_modules/@strictr/markdown-lint-config/index.json",
+    "line-length": false
+}

@@ -1,0 +1,28 @@
+{
+    "name": "project-company-life",
+    "version": "1.0.0",
+    "description": "Specification for a training angular application.",
+    "main": "index.js",
+    "scripts": {
+        "lint:markdown": "markdownlint \"./**/*.md\" --ignore \"node_modules/**\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Teodor92/Project-Company-Life.git"
+    },
+    "keywords": [
+        "training",
+        "spec"
+    ],
+    "author": "Teodor92",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Teodor92/Project-Company-Life/issues"
+    },
+    "homepage": "https://github.com/Teodor92/Project-Company-Life#readme",
+    "devDependencies": {
+        "@strictr/markdown-lint-config": "1.0.1",
+        "markdownlint": "0.15.0",
+        "markdownlint-cli": "0.17.0"
+    }
+}
