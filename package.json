@@ -21,7 +21,7 @@
     },
     "homepage": "https://github.com/Teodor92/Project-Company-Life#readme",
     "devDependencies": {
-        "@strictr/markdown-lint-config": "1.0.1",
+        "@strictr/markdown-lint-config": "1.1.0",
         "markdownlint": "0.15.0",
         "markdownlint-cli": "0.17.0"
     }
