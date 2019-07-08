@@ -46,8 +46,8 @@ You can find all the user stories, by navigating to these links:
 
 ## Technical Stack
 
-The front-end of the application must be done with Angular 5/6.
-The whole stack could be the MEAN stack (Express, Node and Database of your choice) or use any Back-end as a Service (BAAS) (ex: Firebase).
+The front-end of the application can be done with Angular/React/Vue.js or any other technology you wish.
+The whole stack could be the MEAN stack (Express, Node and Database of your choice) or any other backend technology you wish.
 
 ## Code Style
 

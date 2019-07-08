@@ -4,7 +4,8 @@
     "description": "Specification for a training angular application.",
     "main": "index.js",
     "scripts": {
-        "lint:markdown": "markdownlint \"./**/*.md\" --ignore \"node_modules/**\""
+        "lint:markdown": "markdownlint \"./**/*.md\" --ignore \"node_modules/**\"",
+        "release": "standard-version"
     },
     "repository": {
         "type": "git",
@@ -21,7 +22,10 @@
     },
     "homepage": "https://github.com/Teodor92/Project-Company-Life#readme",
     "devDependencies": {
+        "@commitlint/cli": "^8.0.0",
+        "@commitlint/config-conventional": "8.0.0",
         "@strictr/markdown-lint-config": "1.1.0",
+        "husky": "3.0.0",
         "markdownlint": "0.15.0",
         "markdownlint-cli": "0.17.0"
     }
