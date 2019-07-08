@@ -51,7 +51,16 @@ The whole stack could be the MEAN stack (Express, Node and Database of your choi
 
 ## Code Style
 
-Using the following [TSLint configuration](../configuration/tslint.json) is highly recommended.
+If using TypeScript, you can use the following TSLint configuration - `@strictr/tslint-config`.
+
+## Testing
+
+It is advisable to write a lot of test for the application.
+
+- Write Unit Tests for small isolated pieces of logic.
+- Wrote Integration End to End test for a big chuck of the functionality.
+
+Try to hit around a 80% code coverage. If you are using `JavaScript/TypeScript` based technologies - Jest is recommended as a testing framework.
 
 ## Proposed Architecture
 
@@ -69,20 +78,21 @@ The suggested architecture is composed of the following sub-projects:
         - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
         - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
-- Data storage - this is the persistent storage for our system.
+    - Data storage - this is the persistent storage for our system.
 
 - Back-End **[Option 2]** - you could use BAAS like [Firebase](https://firebase.google.com/), [Kinvey](https://www.kinvey.com/)
+- Back-End **[Option 3]** - if you wish to practice only front end skills, it's advisable to use a mock Service Layer to imitate a backend service.
 
 ## General pointers
 
 In the authors' opinion, the bellow recommendations may be of use to the developers of this system.
 
-- It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch.
+- It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch. Or any other component librabry.
 - The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
 
 ## Challenges
 
-If you manage to complete the whole project before the deadline, here are some additional challenges:
+If you manage to complete the whole project and want something else to try, here are some additional challenges:
 
 - Implement 3rd party authentication using Facebook, Tweeter, Github, and Google.
 - Make a new administration for the Job Category and use it to dynamically create job categories.
