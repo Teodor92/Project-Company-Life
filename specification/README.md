@@ -1,9 +1,9 @@
-<!-- markdownlint-disable no-inline-html -->
-<img src="./assets/honeybee-logo.png" width="300px">
-<img src="./assets/telerik-logo.png"  width="250px">
-<!-- markdownlint-enable no-inline-html -->
-
 # Project Company Life
+
+<!-- markdownlint-disable no-inline-html -->
+<img alt="honeybee logo" src="./assets/honeybee-logo.png" width="300px">
+<img alt="telerik academy logo" src="./assets/telerik-logo.png"  width="250px">
+<!-- markdownlint-enable no-inline-html -->
 
 ## Final Project Assignment
 
