@@ -78,7 +78,7 @@ The suggested architecture is composed of the following sub-projects:
         - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
         - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
-    - Data storage - this is the persistent storage for our system.
+- Data storage - this is the persistent storage for our system.
 
 - Back-End **[Option 2]** - you could use BAAS like [Firebase](https://firebase.google.com/), [Kinvey](https://www.kinvey.com/)
 - Back-End **[Option 3]** - if you wish to practice only front end skills, it's advisable to use a mock Service Layer to imitate a backend service.
