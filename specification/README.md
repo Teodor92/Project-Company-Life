@@ -51,14 +51,14 @@ The whole stack could be the MEAN stack (Express, Node and Database of your choi
 
 ## Code Style
 
-If using TypeScript, you can use the following TSLint configuration - `@strictr/tslint-config`.
+Use a ESLint to enforce consistent style - doesn't matter which one you use, your code should be consistent.
 
 ## Testing
 
 It is advisable to write a lot of test for the application.
 
 - Write Unit Tests for small isolated pieces of logic.
-- Wrote Integration End to End test for a big chuck of the functionality.
+- Write Integration End to End test for a big chuck of the functionality.
 
 Try to hit around a 80% code coverage. If you are using `JavaScript/TypeScript` based technologies - Jest is recommended as a testing framework.
 
