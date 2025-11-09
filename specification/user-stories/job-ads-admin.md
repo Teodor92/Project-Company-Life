@@ -8,7 +8,7 @@ This page allows administrators to view all the job ads in the application, add 
 
 ## Acceptance criteria
 
-1. When a administrator clicks on the Job Ads button in the administration part of the application he is redirected to the Job ads administration page.
+1. When an administrator clicks on the Job Ads button in the administration part of the application he is redirected to the Job ads administration page.
 1. If there are more than 10 job ads in the application, a paging mechanism is shown.
 1. The administrator can sort by each column (except the action columns).
 1. If there are no job ads in the application, a `No data available` message should be present.

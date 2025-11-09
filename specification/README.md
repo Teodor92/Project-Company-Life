@@ -46,12 +46,12 @@ You can find all the user stories, by navigating to these links:
 
 ## Technical Stack
 
-The front-end of the application can be done with Angular/React/Vue.js or any other technology you wish.
-The whole stack could be the MEAN stack (Express, Node and Database of your choice) or any other backend technology you wish.
+The front-end of the application can be done with React/Angular/Vue.js or any other technology you wish.
+The whole stack could be the MERN stack (MongoDB, Express, React, Node.js) or any other backend technology you wish.
 
 ## Code Style
 
-Use ESLint to enforce consistent style - doesn't matter which one you use, your code should be consistent.
+Use a linter like ESLint to enforce consistent style - your code should be consistent regardless of which linter you choose. Make use of Prettier to auto format your code.
 
 ## Testing
 
@@ -64,26 +64,30 @@ Try to hit around 80% code coverage. If you are using `JavaScript/TypeScript` ba
 
 ## Proposed Architecture
 
-This following section describes a proposed architecture that may or may not be used by the development team.
+The following section describes a proposed architecture that may or may not be used by the development team.
 
 ![Architecture](assets/example-architecture.png)
 
 The suggested architecture is composed of the following sub-projects:
 
-- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components: - Angular UI - this component deals ONLY with the visualization of data - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
+- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components:
+        - UI Component (e.g., React/Angular/Vue.js) - this component deals ONLY with the visualization of data
+        - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
 
-- Back-End **[Option 1]** - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components: - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume. - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
+- Back-End **[Option 1]** - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
+        - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
+        - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
 - Data storage - this is the persistent storage for our system.
 
-- Back-End **[Option 2]** - you could use BAAS like [Firebase](https://firebase.google.com/), [Kinvey](https://www.kinvey.com/)
-- Back-End **[Option 3]** - if you wish to practice only front end skills, it's advisable to use a mock Service Layer to imitate a backend service.
+- Back-End **[Option 2]** - you could use BaaS (Backend as a Service) like [Firebase](https://firebase.google.com/), [Kinvey](https://www.kinvey.com/)
+- Back-End **[Option 3]** - if you wish to practice only front-end skills, it's advisable to use a mock Service Layer to imitate a backend service.
 
 ## General pointers
 
 In the authors' opinion, the below recommendations may be of use to the developers of this system.
 
-- It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch. Or any other component library.
+- It is highly recommended to use Material-UI ([https://mui.com/](https://mui.com/)) or any other React component library and NOT write everything from scratch.
 - The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
 
 ## Challenges

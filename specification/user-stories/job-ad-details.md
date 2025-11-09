@@ -9,7 +9,7 @@ This page gives the user more details about a job ad and allows him/her to apply
 ## Acceptance criteria
 
 1. When a user clicks on a job ad, he/she should be redirected to the Job ad details page.
-1. The user should see the Job title when the ad was created and the detailed description of the add.
+1. The user should see the Job title when the ad was created and the detailed description of the ad.
 1. The user should be able to click the apply button.
 1. After clicking on the apply button if the user is logged in, he/she should be redirected to the Job application page.
 1. After clicking on the apply button if the user is NOT logged in, he/she should be redirected to the login registration page. After the authentication process is complete, he/she should be redirected to the job application page.

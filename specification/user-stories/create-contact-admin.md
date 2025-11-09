@@ -2,7 +2,7 @@
 
 This page allows administrators to create or edit Contact details.
 
-**Note:** If you wish you can create this form as a modal and not as a seprate page.
+**Note:** If you wish you can create this form as a modal and not as a separate page.
 
 ## Page wireframe
 
@@ -10,7 +10,7 @@ This page allows administrators to create or edit Contact details.
 
 ## Acceptance criteria
 
-1. When a administrator clicks on the Create button in the Contact details administration he/she is redirected to the Contact details create administration page.
+1. When an administrator clicks on the Create button in the Contact details administration he/she is redirected to the Contact details create administration page.
 1. The name of the contact detail must be between 2 and 128 characters. If that is not the case the administrator will get an error message.
 1. The value of the contact detail must be between 2 and 1024 characters. If that is not the case the administrator will get an error message.
 1. If the users mark the `Is map address?` checkbox an integrated Google map is shown in the Contacts page with the value of the current contact detail for an address.
