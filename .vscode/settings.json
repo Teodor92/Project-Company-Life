@@ -1,0 +1,20 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    }
+  },
+  "markdownlint.config": {
+    "MD030": {
+      "ul_single": 1,
+      "ol_single": 1,
+      "ul_multi": 1,
+      "ol_multi": 1
+    }
+  },
+  "files.associations": {
+    "*.md": "markdown"
+  }
+}

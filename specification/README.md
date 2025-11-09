@@ -19,7 +19,7 @@ The purpose of this project is rather straightforward - create a web application
 - An interface for managing all applications by the system administrators.
 - A configurable about/contacts page.
 
-For a detailed information about each feature, please refer to the `User stories` section of this document.
+For detailed information about each feature, please refer to the `User stories` section of this document.
 
 ## User Stories
 
@@ -51,16 +51,16 @@ The whole stack could be the MEAN stack (Express, Node and Database of your choi
 
 ## Code Style
 
-Use a ESLint to enforce consistent style - doesn't matter which one you use, your code should be consistent.
+Use ESLint to enforce consistent style - doesn't matter which one you use, your code should be consistent.
 
 ## Testing
 
-It is advisable to write a lot of test for the application.
+It is advisable to write a lot of tests for the application.
 
 - Write Unit Tests for small isolated pieces of logic.
-- Write Integration End to End test for a big chuck of the functionality.
+- Write Integration End-to-End tests for a big chunk of the functionality.
 
-Try to hit around a 80% code coverage. If you are using `JavaScript/TypeScript` based technologies - Jest is recommended as a testing framework.
+Try to hit around 80% code coverage. If you are using `JavaScript/TypeScript` based technologies - Jest is recommended as a testing framework.
 
 ## Proposed Architecture
 
@@ -70,13 +70,9 @@ This following section describes a proposed architecture that may or may not be 
 
 The suggested architecture is composed of the following sub-projects:
 
-- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components:
-        - Angular UI - this component deals ONLY with the visualization of data
-        - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
+- Front-End - the purpose of this project is to visualize our data and take user input while transmitting it to the back-end. This project contains the following sub-components: - Angular UI - this component deals ONLY with the visualization of data - Service Layer - this is the home of all our data communication logic, sending POST/GET/PUT/DELETE requests to the back-end should be done through here.
 
-- Back-End **[Option 1]** - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components:
-        - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume.
-        - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
+- Back-End **[Option 1]** - the purpose of this project is to abstract any communication with the data source and provide a clean Web API interface for our UI to consume. This project contains the following sub-components: - Express Controllers/Routes layer - this component houses all the express routing logic and exposes a valid REST CRUD API for our front-end to consume. - Service Layer - this is the home of all our data storage and validation logic. If we want to store something in our database, we should go through here.
 
 - Data storage - this is the persistent storage for our system.
 
@@ -85,16 +81,16 @@ The suggested architecture is composed of the following sub-projects:
 
 ## General pointers
 
-In the authors' opinion, the bellow recommendations may be of use to the developers of this system.
+In the authors' opinion, the below recommendations may be of use to the developers of this system.
 
-- It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch. Or any other component librabry.
+- It is highly recommended to use Angular Material([https://material.angular.io/](https://material.angular.io/)) components and NOT write everything from scratch. Or any other component library.
 - The wireframe images are NOT to be taken as 100% accurate - use imagination and common sense.
 
 ## Challenges
 
 If you manage to complete the whole project and want something else to try, here are some additional challenges:
 
-- Implement 3rd party authentication using Facebook, Tweeter, Github, and Google.
+- Implement 3rd party authentication using Facebook, Twitter, Github, and Google.
 - Make a new administration for the Job Category and use it to dynamically create job categories.
 - Generate a test coverage report for the application.
 - Create a mobile/tablet friendly application. (Responsive design)

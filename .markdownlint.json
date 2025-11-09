@@ -1,3 +1,9 @@
 {
-    "line-length": false
+    "line-length": false,
+    "MD030": {
+        "ul_single": 1,
+        "ol_single": 1,
+        "ul_multi": 1,
+        "ol_multi": 1
+    }
 }
