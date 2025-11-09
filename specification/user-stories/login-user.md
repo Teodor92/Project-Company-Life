@@ -8,7 +8,7 @@ This page allows login of an existing user in the application.
 
 ## Acceptance criteria
 
-1. When a user clicks on the Login button in the navigation he/she should be redirected to the Register user page.
+1. When a user clicks on the Login button in the navigation he/she should be redirected to the Login user page.
 1. If the user enters an invalid email, there should be an error message. (Example of invalid emails: aaaaaa, 99999, ____).
 1. The password field must have a value before the form is submitted.
 1. The `Login` button should be disabled if there are invalid fields in the login form.
